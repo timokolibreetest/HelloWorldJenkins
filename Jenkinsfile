@@ -17,6 +17,8 @@ pipeline {
     stage('stage') {
       steps {
         println "hello not skiped"
+                scmSkip(deleteBuild: true, skipPattern:'skipci')
+
       }
     }
   }
