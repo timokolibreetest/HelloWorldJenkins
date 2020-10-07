@@ -16,8 +16,8 @@ pipeline {
   stages {
     stage('stage') {
       steps {
-        println "hello not skiped"
-        
+        println "hello skiped"
+
       }
     }
   }
