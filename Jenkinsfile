@@ -10,7 +10,6 @@ pipeline {
       daysToKeepStr: '180',
       numToKeepStr: '25'
     ))
-    timestamps()
     skipDefaultCheckout()
   }
 
