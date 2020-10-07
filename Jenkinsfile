@@ -15,10 +15,6 @@ pipeline {
 
   stages {
     stage('stage') {
-      when {
-        beforeAgent true
-        expression { return buildCause.isScm() }
-      }
       steps {
         println "hello"
       }
